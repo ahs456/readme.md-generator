@@ -31,7 +31,7 @@ ${data.description}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#future contributions)
+- [Contributions](#Contributions)
 - [License](#license)
 
 ## Installation
@@ -41,7 +41,7 @@ ${data.installation}
 ## Usage
 ${data.use}
 
-## Future Contributions
+## Contributions
 How to Contribute: 
 ${data.contributors}
 
