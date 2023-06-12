@@ -44,7 +44,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'use',
         message: 'how do you use your project?',
     },
     {
