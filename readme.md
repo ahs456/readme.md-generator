@@ -36,5 +36,5 @@ Additionally, other projects i have worked on can be found via GitHub: ahs456.
 The license for this project is N/A.
 
 ## Link to watch video demonstation of this project
-[Link](https://drive.google.com/file/d/1XKFoo488r2BPAKrRvFjb1EkQxDtvaXYX/view)
+[Demonstration](https://drive.google.com/file/d/1XKFoo488r2BPAKrRvFjb1EkQxDtvaXYX/view)
 
