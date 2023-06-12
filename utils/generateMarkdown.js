@@ -57,7 +57,8 @@ Additionally, other projects i have worked on can be found via GitHub: ${data.gi
 ${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license)}
 
-## Link to watch video demonstation of this project
+## Scan QR code to watch a video demonstaraion of this project
+<img src="./assets/images/Screenshot 2023-06-12 at 23.55.36" alt="video demonstaraion of this project" />
 
 `;
 }
