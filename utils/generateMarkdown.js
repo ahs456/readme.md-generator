@@ -20,7 +20,7 @@ function renderLicenseSection(license) {
   return '';
 }
 
-//Function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
