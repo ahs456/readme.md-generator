@@ -29,7 +29,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What License does your project use?',
-        choices: ['None', 'MIT', 'APACHE 2.0, GPL 3.0, BSD 3'],
+        choices: ['N/A', 'MIT', 'APACHE 2.0, GPL 3.0, BSD 3'],
     },
     {
         type: 'input',
