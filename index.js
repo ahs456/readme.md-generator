@@ -23,34 +23,35 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please a description of your project',
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What License does your project use?',
-        choices: ['N/A', 'MIT', 'APACHE 2.0, GPL 3.0, BSD 3'],
+        message: 'Breifly describe your project',
     },
     {
         type: 'input',
         name: 'installation',
         message: 'How do you install your project?',
+        default: 'command: npm i',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'how do you test your project?',
-        default: 'npm test',
+        message: 'How do you test your project?',
+        default: 'command: npm test',
     },
     {
         type: 'input',
         name: 'use',
-        message: 'how do you use your project?',
+        message: 'How do you use your project?',
     },
     {
         type: 'input',
         name: 'contributors',
         message: 'how can others contribute to your project?',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What License does your project use?',
+        choices: ['N/A', 'MIT', 'APACHE 2.0, GNU 3.0, GPL 3.0, BSD 3'],
     },
 ];
 
