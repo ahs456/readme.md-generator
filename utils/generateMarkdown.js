@@ -31,7 +31,7 @@ ${data.description}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Credits](#future contributions)
 - [License](#license)
 
 ## Installation
@@ -54,8 +54,8 @@ Should you have any further questions or suggestions, please contact me via emai
 Additionally, other projects i have worked on can be found via GitHub: ${data.github}.
 
 ## License
-${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)}
 
 ## Link to watch video demonstation of this project
 
