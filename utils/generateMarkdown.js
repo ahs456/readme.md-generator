@@ -15,8 +15,7 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `## License
-    The license for this project is ${license}.`;
+    return `The license for this project is ${license}.`;
   }
   return '';
 }
@@ -45,7 +44,6 @@ ${data.installation}
 
 ## Usage
 ${data.use}
-${renderLicenseSection(data.license)}
 
 ## Future Contributions
 How to Contribute:
@@ -58,6 +56,9 @@ ${data.test}
 ## Questions and Suggestions
 Should you have any further questions or suggestions, please contact me via email: ${data.email}. 
 Additionally, other projects i have worked on can be found via GitHub: ${data.github}.
+
+## License
+${renderLicenseSection(data.license)}
 
 `;
 }
