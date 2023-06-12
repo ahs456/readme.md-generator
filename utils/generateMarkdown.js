@@ -25,16 +25,12 @@ function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
 
-## Project Title
-${data.title}
-
 ## Description
 ${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-${renderLicenseLink(data.license)}
 - [Credits](#credits)
 - [License](#license)
 
@@ -46,7 +42,7 @@ ${data.installation}
 ${data.use}
 
 ## Future Contributions
-How to Contribute:
+How to Contribute: 
 ${data.contributors}
 
 ## Testing
@@ -59,6 +55,7 @@ Additionally, other projects i have worked on can be found via GitHub: ${data.gi
 
 ## License
 ${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 
 `;
 }
