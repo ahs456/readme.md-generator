@@ -40,15 +40,24 @@ ${renderLicenseLink(data.license)}
 - [License](#license)
 
 ## Installation
+The installation of this project requires the following:
+${data.installation}
 
 ## Usage
+${data.use}
+${renderLicenseSection(data.license)}
 
 ## Future Contributions
+How to Contribute:
+${data.contributors}
 
 ## Testing
+The tests for this project require the following:
+${data.test}
 
 ## Questions and Suggestions
-
+Should you have any further questions or suggestions, please contact me via email: ${data.email}. 
+Additionally, other projects i have worked on can be found via GitHub: ${data.github}.
 
 `;
 }
